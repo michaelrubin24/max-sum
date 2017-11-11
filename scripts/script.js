@@ -2,7 +2,7 @@
 var arr = [1, 7, 10, 9, 5, 4, 12];
 
 function max_sum(arr){
-  max = arr[0] + arr[1];
+var max = arr[0] + arr[1];
   var i = 0;
   while(i < arr.length){
     if(arr[i] + arr[i + 1] > max){
